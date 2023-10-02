@@ -240,6 +240,7 @@ module Prism
     end
 
     def self.field(name)
+      <%- if node.fields.any? -%>
       case name
       <%- node.fields.each do |field| -%>
       <%- case field -%>
@@ -268,6 +269,7 @@ module Prism
       <%- end -%>
       <%- end -%>
       end
+      <%- end -%>
     end
   end
   <%- end -%>
