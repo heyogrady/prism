@@ -25,7 +25,6 @@ module Prism
   autoload :RipperCompat, "prism/ripper_compat"
   autoload :Pack, "prism/pack"
   autoload :Pattern, "prism/pattern"
-  autoload :PatternVM, "prism/pattern_vm"
   autoload :Serialize, "prism/serialize"
   autoload :Visitor, "prism/visitor"
 
